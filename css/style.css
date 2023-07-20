@@ -1,0 +1,84 @@
+.logo{
+    background: white;
+    width: 500px;
+    height:50px;
+    padding: 20px;
+    background-image: url("../images/divya-logo-01.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.navigation-bar{
+    display:flex;
+    background-color:white; /* Set background color */
+    padding: 20px; /* Add some padding */
+}
+.navigation-items-right{
+    padding-top: 10px;
+    list-style-type: none; /* to Remove bullet points */
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 90%;
+}
+.navigation-items-right li{
+padding: 20px;
+color:teal;
+font-size: 20px;
+display:inline-block;/*display items horizontally*/
+}
+.navigation-items-right li a{
+font-family: Arial, Helvetica, sans-serif;
+color: teal;
+text-decoration: none;
+}
+.image-content-container{
+display: flex;
+align-items: center;
+margin-right: 100px;
+}
+.left-aligned-image{
+width: 500px;
+height: 500px;
+margin-left: 100px;
+margin-right: 50px;
+}
+.content p{
+flex:1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+font-weight: 300;
+}
+.content h1{font-size: 50px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-head h1{font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+.contact-body a{margin-left: 100px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+font-weight: 300;
+margin-top: 10px;
+}
+.footer-menu-bar {
+    margin-top: 50px;
+    display:flex;
+    background-color:teal; /* Set background color */
+    padding: 20px; /* Add some padding */
+    padding-top: 10px;
+       height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+    .footer-menu-bar a{
+        padding: 30px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+text-decoration: none;
+
+
+    }
